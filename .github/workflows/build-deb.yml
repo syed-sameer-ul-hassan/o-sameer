@@ -1,0 +1,37 @@
+name: Build and Release .deb Package
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-deb:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install FPM
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ruby ruby-dev build-essential
+          sudo gem install --no-document fpm
+
+      - name: Prepare file structure
+        run: |
+          mkdir -p deb/o-sameer/usr/local/bin
+          cp osameer.py deb/o-sameer/usr/local/bin/o-sameer
+          chmod +x deb/o-sameer/usr/local/bin/o-sameer
+
+      - name: Build .deb file
+        run: |
+          fpm -s dir -t deb -n o-sameer -v ${{ github.ref_name }} -C deb/o-sameer
+
+      - name: Upload .deb to GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: "o-sameer_${{ github.ref_name }}_amd64.deb"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
