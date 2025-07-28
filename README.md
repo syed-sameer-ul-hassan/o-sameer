@@ -1,7 +1,14 @@
+ .OOOOOOO.        .SAMEER.        OSAME OSAM     EERO OSAMEEROSA OSAMEEROSA OSAMEERO.  
+OOOO" "OOOO      OSAM  EERO      OSAMEE OSAME   EROSA OSA        OSA        OSA    MEER 
+OOO     OOO      OSAM.          OSAMEER OSAMEE.ROSAME OSA        OSA        OSA      MEE 
+OOO     OOO       "OSAME.      OSAM EER OSAMEEROSAMEE OSAMEER    OSAMEER    OSA    MEER
+OOO     OOO          "OSAM.   OSAM  EER OSA MEERO SAM OSA        OSA        OSAMEERO"  
+OOO     OOO            "OSA  OSAM   EER OSA  MEE  ROS OSA        OSA        OSA MEER   
+OOOO. .OOOO      OSAM  EERO OSAMEEROSAM OSA   "   MEE OSA        OSA        OSA   MEER  
+ "OOOOOOO"        "OSAMEE" OSAM     EER OSA       MEE OSAMEEROSA OSAMEEROSA OSA    MEER 
+    
+
 # O-SAMEER - Wi-Fi Jamming Tool
-
-
-![Logo](https://raw.githubusercontent.com/syed-sameer-ul-hassan/o-sameer/main/assets/icon.png)
 
 `O-SAMEER` (Offensive Security Attack Method for Ethical Exploits and Research) is a powerful Wi-Fi jamming tool built for ethical hacking, security testing, and research purposes only. It uses `aircrack-ng` suite under the hood to discover and deauthenticate nearby wireless networks in monitor mode.
 
