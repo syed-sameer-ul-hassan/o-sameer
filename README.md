@@ -1,20 +1,24 @@
 # O-SAMEER - Wi-Fi Jamming Tool
 
+
+![Logo](https://raw.githubusercontent.com/syed-sameer-ul-hassan/o-sameer/main/assets/icon.png)
+
 `O-SAMEER` (Offensive Security Attack Method for Ethical Exploits and Research) is a powerful Wi-Fi jamming tool built for ethical hacking, security testing, and research purposes only. It uses `aircrack-ng` suite under the hood to discover and deauthenticate nearby wireless networks in monitor mode.
 
 ---
 
-## 👨‍\U0001F4BB Author
+## 👨‍💻 Author
 
 **Syed Sameer Ul Hassan**
 📧 Email: [syedsameerulhassan@Yahoo.com](mailto:syedsameerulhassan@Yahoo.com)
-🔗 GitHub: [gith](https://github.com/syed-sameer-ul-hassan)[ub.com/syed-sameer-ul-hass](https://sameer-shah-CS.netlify.app)[an](https://github.com/syed-sameer-ul-hassan)
+🔗 GitHub: [github.com/syed-sameer-ul-hassan](https://github.com/syed-sameer-ul-hassan)
+🌐 Portfolio: [sameer-shah-CS.netlify.app](https://sameer-shah-CS.netlify.app)
 
 ---
 
-## ⚠️ Disc[laimer & Legal Warning](https://github.com/syed-sameer-ul-hassan)
+## ⚠️ Disclaimer & Legal Warning
 
-> **[This to](https://github.com/syed-sameer-ul-hassan)\*\*\*\*\*\*\*\*\*\*\*\*ol is for educational purposes only!**
+> **This tool is for educational purposes only!**
 > Do NOT use it on any network you do not own or have explicit permission to test.
 > Unauthorized use of this tool against any third-party network is illegal and strictly prohibited.
 > The developer will not be responsible for any misuse or damage caused by this software.
